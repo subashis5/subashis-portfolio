@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App Details | Subashis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <div class="nav-links">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#projects" class="active">Projects</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Project Details Section -->
+    <section class="project-details">
+        <div class="container">
+            <h1 class="section-title">Android Calculator App</h1>
+            
+            <div class="project-overview">
+                <h2>Project Overview</h2>
+                <p>The Android Calculator App is a comprehensive mobile application that provides users with a feature-rich calculator experience. The app supports basic arithmetic operations, scientific calculations, and includes a modern, user-friendly interface.</p>
+            </div>
+
+            <div class="implementation-details">
+                <h2>Implementation Details</h2>
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Basic arithmetic operations with real-time calculation</li>
+                    <li>Scientific calculator functions</li>
+                    <li>History of calculations</li>
+                    <li>Memory functions (M+, M-, MR, MC)</li>
+                    <li>Responsive and intuitive user interface</li>
+                </ul>
+            </div>
+
+            <div class="technical-challenges">
+                <h2>Technical Challenges & Solutions</h2>
+
+                <div class="challenge-item">
+                    <h3>Challenge 1: Expression Parsing</h3>
+                    <p>Implementing accurate mathematical expression parsing while handling operator precedence.</p>
+                    <h4>Solution:</h4>
+                    <p>Developed a custom expression parser using the Shunting Yard algorithm for operator precedence and implemented a robust error handling system.</p>
+                </div>
+
+                <div class="challenge-item">
+                    <h3>Challenge 2: User Interface Design</h3>
+                    <p>Creating an intuitive and responsive interface that works across different screen sizes.</p>
+                    <h4>Solution:</h4>
+                    <p>Utilized Android's ConstraintLayout and implemented a responsive grid system for calculator buttons. Applied Material Design principles for consistent styling and better user experience.</p>
+                </div>
+
+                <div class="challenge-item">
+                    <h3>Challenge 3: State Management</h3>
+                    <p>Managing the calculator's state across configuration changes and user interactions.</p>
+                    <h4>Solution:</h4>
+                    <p>Implemented ViewModel architecture component to preserve calculation state across configuration changes and handle lifecycle events properly.</p>
+                </div>
+            </div>
+
+            <div class="learnings">
+                <h2>Key Learnings</h2>
+                <ul>
+                    <li>Deep understanding of Android activity lifecycle</li>
+                    <li>Improved knowledge of Java programming concepts</li>
+                    <li>Better understanding of UI/UX design principles</li>
+                    <li>Experience with Android Studio debugging tools</li>
+                    <li>Implementation of material design guidelines</li>
+                </ul>
+            </div>
+
+            <div class="future-improvements">
+                <h2>Future Improvements</h2>
+                <ul>
+                    <li>Add support for more scientific functions</li>
+                    <li>Implement themes and customization options</li>
+                    <li>Add unit conversion capabilities</li>
+                    <li>Implement gesture controls for common operations</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Subashis. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
